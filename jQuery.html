@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>탭이해하기</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="./css/layout.css">
+</head>
+<body id="body">
+    <!-- section#portfolio.container>ul.d-flex.p_tabNm>li*3>a{상단이름}^^^.tabcontents>.col-6.thumbImg>img^^.col-6>ul.d-flex.thumbImg>li.col*3>img.img-fluid^^^.description>h2{제작노트}+p{구체적인 설명}^ul.d-flex.p_linkinfo>li*3>a{링크} -->
+    <section id="portfolio" class="container px-0">
+        <ul class="d-flex pt-3 pb-5 p_tabNm justify-content-center">
+            <li class="active"><a href="" class="fs-2 pe-5">AD design</a></li>
+            <li><a href="" class="fs-2 px-5">Web</a></li>
+            <li><a href="" class="fs-2 ps-5">React</a></li>
+        </ul>
+        <div class="tabcons d-flex">
+            <div class="col-6 ps-2 d-flex flex-column justify-content-center titleImg order-1">
+                <img src="" alt="대표이미지" class="img-fluid">
+            </div>
+            <div class="col-6 pe-2 d-flex flex-column justify-content-between order-0">
+                <ul class="d-flex thumbImg">
+                    <li class="col pe-1"><img src="" alt="" class="img-fluid"></li>
+                    <li class="col px-2"><img src="" alt="" class="img-fluid"></li>
+                    <li class="col ps-1"><img src="" alt="" class="img-fluid"></li>
+                </ul>
+                <div class="description text-center">
+                    <h2 class="fs-4 pb-2">제작노트</h2>
+                    <p  class="fs-6">구체적인 설명</p>
+                </div>
+                <ul class="d-flex justify-content-center p_linkinfo">
+                    <li><a href="" class="fs-5 pe-5">site</a></li>
+                    <li><a href="" class="fs-5 px-5">git</a></li>
+                    <li><a href="" class="fs-5 ps-5">figma</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script src="./js/js.js"></script>
+</body>
+</html>
